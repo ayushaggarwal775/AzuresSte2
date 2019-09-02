@@ -17,6 +17,7 @@ var app = new Vue({
     showLoader: true,
 		subSection: '',
 		storageaccountnameerror: false,
+        resourcegrouperror : false,
     infoModal: {
       body: '',
       title: ''

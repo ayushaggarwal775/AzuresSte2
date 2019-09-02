@@ -92,6 +92,9 @@
 												v-if="field.internalName === 'StorageAccountName' && storageaccountnameerror">
 												An account with this name doesn't exists!
 											</small>
+                                            <small class="text-danger" v-if="field.internalName === 'ResourceGroupName' && resourcegrouperror"
+												v-text="resourcegrouperrormsg">
+											</small>
 
 											<input v-else-if="field.inputType === 'password'" type="password" :id="field.internalName"
 												class="form-control" v-model="field.value" :placeholder="field.placeholder"
