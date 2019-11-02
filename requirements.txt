@@ -57,7 +57,7 @@ pytz==2018.5
 pywin32-ctypes==0.2.0
 pyxlsb==1.0.3
 PyYAML==3.13
-requests==2.18.4
+requests==2.20.0
 selenium==3.14.0
 shellescape==3.4.1
 six==1.11.0
